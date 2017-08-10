@@ -1,9 +1,30 @@
 $(function() {
 
+    $('.nav-open').on('click', function(e){
+        e.preventDefault();
+        $('body').addClass('no_scroll');
+        $('.nav-scroll').addClass('visible');
+    });
+    $('.close-nav').on('click', function(e){
+        e.preventDefault();
+        $('body').removeClass('no_scroll');
+        $('.nav-scroll').removeClass('visible');
+    });
+
     var partnerslider = $(".partner-slider");
     partnerslider.addClass("owl-carousel");
     partnerslider.owlCarousel({
-        items:6,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6,
+            }
+        },
         margin:30,
         lazyLoad:true,
         autoplay:true,
