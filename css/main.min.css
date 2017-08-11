@@ -1588,7 +1588,8 @@ z-index: 2;
 }
 #footer .map-info p {
 margin-top:0;padding-top:0;
- font-weight:lighter
+ font-weight:lighter;
+	line-height:20px;
 }
 #footer .map-info .contact_link {
  margin:0 -15px 15px 0;
