@@ -1410,7 +1410,7 @@ a.close-nav:hover i,a.nav-open:hover i {
  top:0;
  bottom:0;
  z-index:-1;
- opacity:.3;
+ opacity:.5;
  -webkit-background-size:cover;
  background-size:cover;
  background-position:center
