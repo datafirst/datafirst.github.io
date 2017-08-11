@@ -1577,7 +1577,7 @@ z-index: 2;
 
 #footer .map-info>.row>div {
  background:rgba(246,246,246,.86);
- padding:45px;
+ padding:60px 45px;
  pointer-events: all;
 }
 #footer .map-info h4 {
@@ -1587,6 +1587,7 @@ z-index: 2;
  font-weight:lighter
 }
 #footer .map-info p {
+margin-top:0;padding-top:0;
  font-weight:lighter
 }
 #footer .map-info .contact_link {
