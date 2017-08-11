@@ -1464,7 +1464,8 @@ a.close-nav:hover i,a.nav-open:hover i {
  margin-bottom:30px
 }
 #marketing .icon img {
- margin:0 auto
+ margin:0 auto;
+	 max-width:85px;
 }
 #marketing .title {
  color:#111;
