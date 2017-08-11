@@ -26,17 +26,17 @@
         <nav id="hnav">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-8">
+                    <div class="col-sm-3 col-xs-8">
                         <a href="/" class="logotype">DATAFIRST</a>
                     </div>
-                    <div class="col-sm-8 col-xs-4 tright">
+                    <div class="col-sm-9 col-xs-4 tright">
                         <a class="nav-open" href="#"><i class="fa fa-bars"></i></a>
                         <div class="nav-scroll">
                             <a class="close-nav" href="#"><i class="fa fa-close"></i></a>
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Partner</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#marketing">Services</a></li>
+                                <li><a href="#partners-slider">Partner</a></li>
                             </ul>
                             <div class="right-link">
                                 <a href="#footer" class="scroll">CONTACT</a>
@@ -46,12 +46,12 @@
                 </div>
             </div>
         </nav>
-        <header id="header">
+        <header id="header" class="full-screen">
             <div class="container">
                 <h1>SMART AUDIENCE MARKETING</h1>
                 <h2>The DataFirst system helps developers bring their apps and games to the right audience in a cost-effective way.</h2>
                 <div class="btn-block">
-                    <a href="#">Find out more</a>
+                    <a href="#about" class="scroll">Find out more</a>
                 </div>
             </div>
             <div id="header_bg"></div>
@@ -64,7 +64,7 @@
                     We have created a tool that analyses hundreds of datapoints during your mobile user acquisition campaign, provides actionable reports and optimises your ROI in real-time
                 </p>
                 <div class="btn-block btn-blue">
-                    <a href="#">Get started</a>
+                    <a href="#marketing" class="scroll">Get started</a>
                 </div>
             </div>
         </section>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="marketing-star">
-                <a href="/">Get started <i class="fa fa-long-arrow-right"></i></a>
+                <a href="#footer" class="scroll">Get started <i class="fa fa-long-arrow-right"></i></a>
             </div>
         </section>
         <section id="partners-slider" class="p80">
@@ -194,22 +194,9 @@
 
         <script src="js/scripts.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvoiiqr9VeeUO3zi_u9pwTnYdnz4lz-gk"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
-        <script>
-
-            var heights = $('#header').outerHeight();
-            var pattern = Trianglify({
-                cell_size: 80,
-                width: window.innerWidth,
-                height: heights, 
-                x_colors: 'random'
-            });
-            $('#header_bg').append(pattern.canvas())
-        </script>
+        <script src="js/trianglify.min.js"></script>
         <script src="js/map.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/common.min.js"></script>
     </body>
 </html>
-
-
