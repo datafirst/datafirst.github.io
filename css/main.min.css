@@ -1565,11 +1565,17 @@ a.close-nav:hover i,a.nav-open:hover i {
  bottom:0;
  right:0;
  left:0;
- z-index:-1
 }
+#footer .map-info {
+	position: relative;
+z-index: 2;
+	pointer-events: none;
+}
+
 #footer .map-info>.row>div {
  background:rgba(246,246,246,.86);
- padding:45px
+ padding:45px;
+ pointer-events: all;
 }
 #footer .map-info h4 {
  margin:0;
