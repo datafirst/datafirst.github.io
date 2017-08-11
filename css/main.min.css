@@ -1362,7 +1362,7 @@ a.close-nav:hover i,a.nav-open:hover i {
  min-height:450px;
  display: flex;
  align-items: center;
- padding:0 0 40px 0;
+ padding-bottom: 120px;
 }
 #header .container {
  padding:0 15px
@@ -1389,7 +1389,7 @@ a.close-nav:hover i,a.nav-open:hover i {
 #header .header-scroll {
  margin-left:-35px;
  position:absolute;
- bottom:50px;
+ bottom:30px;
  left:50%;
  width:70px;
  height:70px;
