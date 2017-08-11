@@ -1288,8 +1288,8 @@ a.close-nav:hover i,a.nav-open:hover i {
 }
 #hnav {
  background:#fff;
- padding:20px;
- height:90px
+ padding:10px 0;
+ height:70px
 }
 #hnav .row {
  display:-webkit-box;
