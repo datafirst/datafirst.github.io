@@ -1517,14 +1517,16 @@ a.close-nav:hover i,a.nav-open:hover i {
  -ms-flex-align:center;
  align-items:center
 }
-.partner-slider .item a {
+.partner-slider .item a,
+.partner-slider .item span{
  display:block;
  opacity:.8;
  -webkit-transition:.2s ease;
  -o-transition:.2s ease;
  transition:.2s ease
 }
-.partner-slider .item a:hover {
+.partner-slider .item a:hover,
+.partner-slider .item span:hover{
  opacity:1
 }
 .partner-slider .item img {
